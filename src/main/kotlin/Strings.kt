@@ -11,5 +11,12 @@ fun main() {
 
     println(msg)
 
-    v
+    val email = """
+        Hello %s
+        How
+        Are 
+        You
+    """.trimIndent()
+
+    println(email.format("${name}"))
 }
