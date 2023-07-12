@@ -1,4 +1,4 @@
-private class Person(val firstName: String="Kartikey", val lastName: String = "Srivastava")
+class Person(val firstName: String="Kartikey", val lastName: String = "Srivastava")
 //if you do not have any properties or arguments in your primary constructor then you don't need a constructor
 {
 var nickName: String? = null
